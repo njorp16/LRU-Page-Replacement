@@ -1,10 +1,10 @@
 # LRU-Page-Replacement
-C Program that emulates the LRU Page Replacement Algorithm 
 
-Part 1: Performs address translation - translates logical addresses into physical addresses given a binary input file.
-<br>
-Usage: ./part1 part1sequence part1-output
+A C program that emulates the Least Recently Used (LRU) Page Replacement Algorithm.
 
-Part 2: Designed a page table to perform physical memory management. IMplements LRU Policy and generates the number of page faults.
-<br>
-Usage: ./part2 part2sequence part2-output
+## Part 1: Address Translation
+This section of the program performs address translation, translating logical addresses into physical addresses given a binary input file.
+
+### Usage
+```bash
+./part1 part1sequence part1-output
